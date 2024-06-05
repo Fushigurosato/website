@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Clothing Store</title>
+    <link rel="stylesheet" href="new1.css">
+    <script src="new1.js" defer></script>
+</head>
+<body>
+   <style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* Background color */
+    background-image:  url("C://Users/LENOVO/Desktop/ced.png"); /* Replace URL with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Text color */
+  }
+  .content {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for content */
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 18px;
+  }
+</style>
+    
+</head>
+<body>
+    <header>
+        <h1>Anime Clothing Store</h1>
+        <nav>
+            <ul>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="contact.html">CONTACTS</a></li>
+                <li><a href="web22.html">SHOP</a></li>
+                <li><a href="#" id="login">Login</a></li>
+                <li><a href="#" id="signup">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Welcome to our Anime Clothing Store!</h2>
+        <p>Explore our collection of anime-inspired clothing and accessories.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Anime Clothing Store</p>
+    </footer>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div id="signupModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label for="newUsername">Username:</label>
+                <input type="text" id="newUsername" name="newUsername" required>
+                <label for="newPassword">Password:</label>
+                <input type="password" id="newPassword" name="newPassword" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
